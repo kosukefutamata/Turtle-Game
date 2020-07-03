@@ -127,11 +127,9 @@ class TurtleGame:
         #プレイヤーのイベントを実行
         self.player_event()
 
-        "ーーーーーーー以下書き足しーーーーーーー"
         #ターゲットのイベントの実行
         for t in self.targets:
             self.target_event(t)
-        "ーーーーーーーーーーーーーーーーーーーー"
 
     #playerのイベント
     def player_event(self):
